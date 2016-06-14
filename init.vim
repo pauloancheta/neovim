@@ -8,10 +8,12 @@ call plug#begin('~/.nvim/plugged')
   Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': 'yes \| ./install' } " Plugin outside ~/.vim/plugged with post-update hook
   Plug 'https://github.com/junegunn/vim-github-dashboard.git' " Using git URL
   Plug 'kien/ctrlp.vim'
+  Plug 'MarcWeber/vim-addon-mw-utils'
   Plug 'mileszs/ack.vim'
   Plug 'scrooloose/syntastic'
   Plug 'scrooloose/nerdtree'
   Plug 'terryma/vim-multiple-cursors'
+  Plug 'tomtom/tlib_vim'
   Plug 'tpope/vim-fugitive'
   Plug 'tpope/vim-sensible'
   Plug 'vim-scripts/HTML-AutoCloseTag'
