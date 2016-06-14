@@ -2,10 +2,10 @@ call plug#begin('~/.nvim/plugged')
   Plug 'airblade/vim-gitgutter'
   Plug 'bling/vim-airline'
   Plug 'godlygeek/tabular'
+  Plug 'garbas/vim-snipmate'
   Plug 'janko-m/vim-test'
   Plug 'jiangmiao/auto-pairs'
   Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': 'yes \| ./install' } " Plugin outside ~/.vim/plugged with post-update hook
-  Plug 'junegunn/vim-easy-align'
   Plug 'https://github.com/junegunn/vim-github-dashboard.git' " Using git URL
   Plug 'kien/ctrlp.vim'
   Plug 'mileszs/ack.vim'
